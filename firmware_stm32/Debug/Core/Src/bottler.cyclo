@@ -1,6 +1,0 @@
-../Core/Src/bottler.c:8:6:bottlerInit	1
-../Core/Src/bottler.c:22:6:conveyorForward	1
-../Core/Src/bottler.c:34:6:conveyorStop	1
-../Core/Src/bottler.c:42:6:valveOpen	1
-../Core/Src/bottler.c:48:6:valveClose	1
-../Core/Src/bottler.c:53:7:getTemperature	2
