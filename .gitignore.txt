@@ -1,0 +1,48 @@
+# =========================
+# STM32CubeIDE (C/C++)
+# =========================
+# Ignorar carpetas de compilación
+Debug/
+Release/
+build/
+
+# Ignorar binarios y archivos temporales generados al compilar
+*.o
+*.d
+*.elf
+*.map
+*.hex
+*.bin
+*.list
+*.log
+
+# =========================
+# HMI Qt (C++)
+# =========================
+# Ignorar carpetas de compilación de Qt
+build-*/
+debug/
+release/
+
+# Ignorar archivos locales de usuario de Qt Creator
+*.user
+*.user.*
+
+# Ignorar archivos generados por qmake y el compilador de Qt
+.qmake.stash
+Makefile*
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# Ignorar ejecutables
+*.exe
+*.app
+*.out
+
+# =========================
+# Archivos del Sistema Operativo
+# =========================
+.DS_Store
+Thumbs.db
